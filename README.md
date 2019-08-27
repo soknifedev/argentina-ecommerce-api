@@ -1,4 +1,4 @@
-#API de sitios ecommerce de Argemtina.
+# API de sitios ecommerce de Argentina.
 
 
 Petición de Ejemplo:
