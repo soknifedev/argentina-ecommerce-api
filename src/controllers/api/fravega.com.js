@@ -12,7 +12,7 @@ export const getCategories = async ctx => {
     headers: {
       "cache-control": "no-cache",
       "pragma": "no-cache",
-      "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; PLUS Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36"
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0"
     }
   }).then(async (response) => {
     let $ = cheerio.load(response.body);
@@ -50,7 +50,7 @@ export const getSections = async ctx => {
     headers: {
       "cache-control": "no-cache",
       "pragma": "no-cache",
-      "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; PLUS Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36"
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0"
     }
   }).then(async (response) => {
     let $ = cheerio.load(response.body);
