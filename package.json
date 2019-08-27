@@ -1,0 +1,39 @@
+{
+  "author": "knife-dev",
+  "license": "GPL v3",
+  "name": "argentina-ecommerce-api",
+  "private": false,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "aes-cross": "^1.0.9",
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "request": "^2.88.0",
+    "moment": "^2.24.0",
+    "regenerator-runtime": "^0.13.2",
+    "ua-parser-js": "^0.7.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-private-methods": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "eslint": "^5.9.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-node": "^8.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
